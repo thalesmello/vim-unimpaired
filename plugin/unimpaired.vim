@@ -34,7 +34,7 @@ call s:MapNextFamily('a','')
 call s:MapNextFamily('b','b')
 call s:MapNextFamily('l','l')
 call s:MapNextFamily('q','c')
-call s:MapNextFamily('t','t')
+call s:MapNextFamily('t','tab')
 
 function! s:entries(path)
   let path = substitute(a:path,'[\\/]$','','')
