@@ -35,6 +35,10 @@ is "args" and for the "q" commands is "quickfix".
 *]Q*     |:clast|
 *[<C-Q>* |:cpfile| (Note that <C-Q> only works in a terminal if you disable
 *]<C-Q>* |:cnfile| flow control: stty -ixon)
+*[g*     |:tprevious|
+*]g*     |:tnext|
+*[G*     |:tfirst|
+*]G*     |:tablast|
 *[t*     |:tabprevious|
 *]t*     |:tabnext|
 *[T*     |:tabfirst|
